@@ -18,7 +18,7 @@ A modern, responsive landing page built with **React 19**, **Vite**, and **Tailw
 
 Clone the repository and install dependencies:
 
-```bash
+bash
 git clone https://github.com/your-username/vr-landing-page.git
 cd vr-landing-page
 npm install
