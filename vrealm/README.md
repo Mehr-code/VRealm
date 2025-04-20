@@ -22,6 +22,8 @@ Clone the repository and install dependencies:
 git clone https://github.com/your-username/vr-landing-page.git
 cd vr-landing-page
 npm install
+
+---
 🧪 Development
 To run the project in development mode:
 
@@ -30,6 +32,9 @@ Copy
 Edit
 npm run dev
 The app will be available at http://localhost:5173.
+
+---
+
 
 🛠️ Build for Production
 To generate the optimized production build:
@@ -43,6 +48,9 @@ You can preview the production build with:
 bash
 Copy
 Edit
+
+---
+
 npm run preview
 📁 Project Structure
 bash
@@ -55,6 +63,10 @@ src/
 ├── App.jsx           # Root component
 ├── index.css         # Tailwind CSS styles
 └── main.jsx          # App entry point
+
+---
+
+
 🧰 Linting
 Run ESLint to check for code issues:
 
@@ -62,11 +74,19 @@ bash
 Copy
 Edit
 npm run lint
+
+---
+
+
 📸 Preview
 (Add screenshots or a short GIF of the landing page here)
 
+---
+
 📄 License
 MIT License © 2025 Mehr-code
+
+---
 
 🌍 Live Demo
 👉 https://your-live-site.com
