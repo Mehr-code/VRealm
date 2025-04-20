@@ -1,12 +1,74 @@
-# React + Vite
+# 🌐 VR Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with **React 19**, **Vite**, and **Tailwind CSS 4** — designed for Virtual Reality software platforms.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React 19**
+- ⚡ **Vite 6** – Fast dev server & build tool
+- 🎨 **Tailwind CSS 4.1**
+- 💡 **Lucide Icons** – Clean and modern icon set
+- 🧹 **ESLint** – Code linting with React best practices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/vr-landing-page.git
+cd vr-landing-page
+npm install
+🧪 Development
+To run the project in development mode:
+
+bash
+Copy
+Edit
+npm run dev
+The app will be available at http://localhost:5173.
+
+🛠️ Build for Production
+To generate the optimized production build:
+
+bash
+Copy
+Edit
+npm run build
+You can preview the production build with:
+
+bash
+Copy
+Edit
+npm run preview
+📁 Project Structure
+bash
+Copy
+Edit
+src/
+├── assets/           # Static assets (images, videos)
+├── components/       # Reusable UI components
+├── pages/            # Landing page or multiple views
+├── App.jsx           # Root component
+├── index.css         # Tailwind CSS styles
+└── main.jsx          # App entry point
+🧰 Linting
+Run ESLint to check for code issues:
+
+bash
+Copy
+Edit
+npm run lint
+📸 Preview
+(Add screenshots or a short GIF of the landing page here)
+
+📄 License
+MIT License © 2025 Mehr-code
+
+🌍 Live Demo
+👉 https://your-live-site.com
+
+Built with love, code & coffee ☕
