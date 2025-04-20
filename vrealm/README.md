@@ -18,7 +18,6 @@ A modern, responsive landing page built with **React 19**, **Vite**, and **Tailw
 
 Clone the repository and install dependencies:
 ```
-bash
 git clone https://github.com/your-username/vr-landing-page.git
 cd vr-landing-page
 npm install
@@ -28,9 +27,6 @@ npm install
 🧪 Development
 To run the project in development mode:
 ```
-bash
-Copy
-Edit
 npm run dev
 ```
 The app will be available at http://localhost:5173.
@@ -41,27 +37,18 @@ The app will be available at http://localhost:5173.
 🛠️ Build for Production
 To generate the optimized production build:
 ```
-bash
-Copy
-Edit
 npm run build
 ```
 ---
 
 You can preview the production build with:
 ```
-bash
-Copy
-Edit
 npm run preview
 ```
 ---
 
 📁 Project Structure
 ```
-bash
-Copy
-Edit
 src/
 ├── assets/           # Static assets (images, videos)
 ├── components/       # Reusable UI components
@@ -77,9 +64,6 @@ src/
 🧰 Linting
 Run ESLint to check for code issues:
 ```
-bash
-Copy
-Edit
 npm run lint
 ```
 ---
