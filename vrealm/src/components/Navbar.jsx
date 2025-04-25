@@ -17,10 +17,13 @@ function Navbar() {
     >
       <div className="comtainer px-4 mx-auto relative text-sm">
         <div className="flex justify-between item-center">
+          {/* Logo + Logo's name */}
           <div className="flex items-center flex-shrink-0">
             <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
             <span className="text-xl tracking-tight">VRealm</span>
           </div>
+
+          {/* Nav items for large screen */}
           <ul className="hidden lg:flex ml-14 space-x-12 items-center">
             {navItems.map((item, index) => (
               <li key={index}>
@@ -28,6 +31,8 @@ function Navbar() {
               </li>
             ))}
           </ul>
+
+          {/* Buttons in Nav Bar */}
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a className="py-2 px-3 border rounded-md" href="#">
               Sign in
@@ -39,12 +44,16 @@ function Navbar() {
               Create an account
             </a>
           </div>
-          <div className="lg:hidden md:flex  justify-end items-center">
+
+          {/* Hamburger menu for Smaller screens */}
+          <div className="lg:hidden md:flex justify-end items-center">
             <button onClick={toggleNavbar}>
               {mobileDrawerOpen ? <X /> : <Menu />}
             </button>
           </div>
         </div>
+
+        {/* Display Navbar items in Hamberger Menu in Smaller screens */}
         {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
